@@ -3,41 +3,37 @@ package in.co.rays.basic;
 import java.util.Scanner;
 
 public class TestScanner {
-
 	public static void main(String[] args) {
-
 		Scanner sc = new Scanner(System.in);
-
-		System.out.println("enter first int....");
+		System.out.println("Enter First Integer :");
 		int a = sc.nextInt();
 
-		System.out.println("enter second int....");
+		System.out.println("Enter Second Integer :");
 		int b = sc.nextInt();
 
-		System.out.println("your first int is: " + a);
-		System.out.println("your second int is: " + b);
+		System.out.println("Our First Integer is : " + a);
+		System.out.println("Our First Integer is : " + b);
 
-		System.out.println("select your one opr....(-, +, *, /, %)");
-		String opr = sc.next();
-
-		switch (sc) {
+		System.out.println("Select The One Operator(+, -, *, /, %)");
+		String opt = sc.next();
+		
+		switch (opt) {
 		case "+":
-			System.out.println("result: " + (a + b));
+			System.out.println("Result :" + (a+b));
 			break;
 		case "-":
-			System.out.println("result: " + (a - b));
+			System.out.println("Result :" + (a-b));
 			break;
 		case "*":
-			System.out.println("result: " + (a * b));
+			System.out.println("Result :" + (a*b));
 			break;
 		case "/":
-			System.out.println("result: " + (b / a));
+			System.out.println("Result :" + (a/b));
 			break;
 		case "%":
-			System.out.println("result: " + (b % a));
+			System.out.println("Result :" + (b%a));
 			break;
 		}
-
 	}
 
 }
