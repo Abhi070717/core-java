@@ -1,28 +1,22 @@
 package in.co.rays.basic;
 
 public class TestArraySecondLagrestNo {
-	package in.co.rays.basic;
 
-	public class TestArraySecondLargest {
-	    public static void main(String[] args) {
-	        int[] a = { 5, 10, 15, 20, 255, 30 };
+	public static void main(String[] args) {
 
-	        int largest = Integer.MIN_VALUE;
-	        int secondLargest = Integer.MIN_VALUE;
+		int[] num = { 30, 20, 100, 50, 60 };
+		int temp = 0;
+		int secLargest = 0;
 
-	        for (int num : a) {
-	            if (num > largest) {
-	                secondLargest = largest; // update second largest
-	                largest = num;           // update largest
-	            } else if (num > secondLargest && num != largest) {
-	                secondLargest = num;
-	            }
-	        }
-
-	        System.out.println("Largest number: " + largest);
-	        System.out.println("Second largest number: " + secondLargest);
-	    }
+		for (int i = 0; i < num.length; i++) {
+			if (temp < num[i]) {
+				secLargest = temp;
+				temp = num[i];
+			}
+			if (secLargest < num[i] && temp > num[i]) {
+				secLargest = num[i];
+			}
+		}
+		System.out.println("second largest no in array: " + secLargest);
 	}
-
-
 }

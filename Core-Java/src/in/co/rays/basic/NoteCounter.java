@@ -15,8 +15,6 @@ public class NoteCounter {
 			System.out.println("total note of "+ note + " is = " + count);
 			money = money % note;
 		}
-		
-		
 
 	}
 

@@ -5,6 +5,7 @@ public class Divide {
 		int a = 45;
 		int b=5;
 		int c=a/b;
+		
 		System.out.println(c);
 	}
 

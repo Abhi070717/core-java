@@ -6,6 +6,7 @@ public class ContinueStatement {
 			if (i % 2 == 0) {
 				continue;
 			}
+			
 			System.out.println("Odd Number: " + i);		
 		}
 	}
