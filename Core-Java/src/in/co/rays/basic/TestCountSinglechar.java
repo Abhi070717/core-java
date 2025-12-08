@@ -8,16 +8,15 @@ public class TestCountSinglechar {
 
 			if ('i' == str.charAt(j)) {
 				count++;
-				System.out.println(str.charAt(j));
-				
+				System.out.println(str.charAt(10));
+
 			}
 		}
 		System.out.println("-----------");
-		
-		
+
 		if (count > 0) {
-			System.out.println(count);
-		
+			System.out.println("Count Value : " + count);
+
 		}
 
 	}
