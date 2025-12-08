@@ -27,3 +27,7 @@ public class TestArrayLargestNoInArray {
 	}
 
 }
+/*
+ * Output : 
+ * largestNo is: 255 second largest: 30
+ */

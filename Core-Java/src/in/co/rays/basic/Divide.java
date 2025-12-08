@@ -10,3 +10,6 @@ public class Divide {
 	}
 
 }
+/* Output : 
+ * 9
+ */

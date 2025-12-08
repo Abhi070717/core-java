@@ -9,7 +9,7 @@ public class ArmstrongNo {
 		
 		while (num2 != 0) {
 			r = num2 % 10;
-			temp = temp + r * r * r;
+			temp = temp + r * r * r; // r = Riminder
 			num2 = num2 / 10;
 		}
 		if (temp == num) {
@@ -19,3 +19,7 @@ public class ArmstrongNo {
 		}
 	}
 }
+/*
+ * Output : 
+ * Armstrong
+ */
