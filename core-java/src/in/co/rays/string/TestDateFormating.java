@@ -4,13 +4,17 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class TestDateFormating {
+	
 	public static void main(String[] args) {
-		Date date = new Date(0);
+		
+		Date date = new Date();
+		
 		System.out.println("Date : " + date);
+
+		SimpleDateFormat sdf = new SimpleDateFormat("EEEEEEE MMMMMMMM dd yyyy h:mm:ss a z ");
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("EEE MMM dd yyyy h:mm:ss a z ");
 		String formatedDate = sdf.format(date);
-		
+
 		System.out.println("Formated Date : " + formatedDate);
 
 	}
