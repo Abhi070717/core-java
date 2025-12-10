@@ -4,8 +4,8 @@ public class TestArrayFindPositionOfInt {
 	public static void main(String[] args) {
 		int[] a = { 2, 3, 4, 5, 6, 7, 8 };
 
-		int n = 87;
-		int position = -1;
+		int n = 7;
+		int position = 5;
 
 		for (int i = 0; i < a.length; i++) {
 			if (n == a[i]) {
@@ -16,7 +16,7 @@ public class TestArrayFindPositionOfInt {
 
 		}
 		
-		if (position == -1) {
+		if (position == 5) {
 
 			System.out.println("Element is = " + n + " index is = " + position);                   
 		}

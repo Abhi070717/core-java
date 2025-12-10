@@ -16,7 +16,7 @@ public class TestCalculator {
 			System.out.println("Result " + (a * b));
 			break;
 		case "/":
-			System.out.println("Resul " + (a / b));
+			System.out.println("Result " + (a / b));
 			break;
 		case "%":
 			System.out.println("Result " + (b % a));
