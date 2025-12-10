@@ -25,6 +25,21 @@ public class TestLocalDate {
 		System.out.println("Year: " + DoB.getYear());
 		System.out.println("Month: "+DoB.getMonth());
 		
+		LocalDate date = LocalDate.now();
+		
+		System.out.println(date);
+		
+		// minus days
+		
+		LocalDate lastmonth = date.minusDays(30);		
+		
+		System.out.println("past One month days: " + lastmonth);
+		
+		// plus days
+		
+		LocalDate futuremonths = date.plusDays(30);
+		
+		System.out.println("Future One month days: " + futuremonths);
 	}
 
 }
