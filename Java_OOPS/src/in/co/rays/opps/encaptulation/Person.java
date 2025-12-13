@@ -38,9 +38,15 @@ public class Person {
 		Date now = new Date();
 
 		@SuppressWarnings("deprecation")
-		int Age = now.getYear() - DOB.getYear();
+		int age = now.getYear() - DOB.getYear();
+		if (age >= AVG_AGE && age <= 60) {
+			System.out.println("Elegible for vote");
+		} else {
+			System.out.println("Not elegible for vote");
 
-		return Age;
+		}
+
+		return age;
 
 	}
 }

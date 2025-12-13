@@ -3,9 +3,9 @@ package in.co.rays.opps.inheritance;
 import java.util.Date;
 
 public class Person {
-	private String name;
-	private String address;
-	private Date DateOfBirth;
+	protected String name;
+	protected String address;
+	protected Date DateOfBirth;
 
 	public String getName() {
 		return name;
@@ -22,12 +22,14 @@ public class Person {
 	public void setAddress(String address) {
 		this.address = address;
 	}
+
 	public Date getDateOfBirth() {
 		return DateOfBirth;
 
 	}
+
 	public void setDateOfBirth(Date dateOfBirth) {
-		this.getDateOfBirth();
+		this.DateOfBirth = dateOfBirth;
 	}
 
 }

@@ -17,19 +17,21 @@ public class TestPerson {
 		System.out.println("Customer DOB: " + R1.getDOB());
 		System.out.println("Customer Address: " + R1.getAddress());
 		System.out.println("Customer Age: " + R1.getAge(R1.getDOB()));
+		
 		System.out.println("-------------------------------");
 		
 		Person S1 = new Person();
 		
 		S1.setName("Shayam gupta");
-		S1.setDOB(sdf.parse("2007-08-27"));
+		S1.setDOB(sdf.parse("2009-08-27"));
 		S1.setAddress("Manawar");
 		
 		System.out.println("Customer Name: " + S1.getName());
 		System.out.println("Customer DOB: " + S1.getDOB());
 		System.out.println("Customer Address: " + S1.getAddress());
 		System.out.println("Customer Age: " + S1.getAge(S1.getDOB()));
-
+		
+		
 	}
 
 }
