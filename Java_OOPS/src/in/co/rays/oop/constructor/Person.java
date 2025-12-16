@@ -1,43 +1,37 @@
-package in.co.rays.opps.encaptulation;
+package in.co.rays.oop.constructor;
 
 import java.util.Date;
 
 public class Person {
 
-	private String name;
-	private Date DOB;
-	private String address;
+	protected String name;
+	protected String address;
+	protected Date dob;
 	public static final int AVG_AGE = 18;
 
-	public String getName() {
-		return this.name;
-	}
+	public Person(String name, String address, Date dob) {
 
-	public void setName(String name) {
 		this.name = name;
+		this.address = address;
+		this.dob = dob;
+
 	}
 
-	public Date getDOB() {
-		return this.DOB;
-	}
-
-	public void setDOB(Date DOB) {
-		this.DOB = DOB;
-
+	public String getName() {
+		return name;
 	}
 
 	public String getAddress() {
-		return this.address;
+		return address;
 	}
 
-	public void setAddress(String address) {
-		this.address = address;
+	public Date getDob() {
+		return dob;
 	}
 
 	public int getAge(Date DOB) {
 		Date now = new Date();
 
-		@SuppressWarnings("deprecation")
 		int age = now.getYear() - DOB.getYear();
 		if (age >= AVG_AGE && age <= 60) {
 			System.out.println("Elegible for vote");
@@ -49,4 +43,5 @@ public class Person {
 		return age;
 
 	}
+
 }

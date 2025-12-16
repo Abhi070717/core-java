@@ -1,4 +1,4 @@
-package in.co.rays.oop.inheritance;
+package in.co.rays.opps.inheritance;
 
 public class Shape {
 	protected String color;

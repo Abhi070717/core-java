@@ -1,35 +1,27 @@
-package in.co.rays.opps.encaptulation;
+package in.co.rays.oop.constructor;
 
 public class Automobile {
-
-	private String color;
-	private int speed;
-	private String make;
+	protected String color;
+	protected String make;
+	protected int speed;
 	public static final int NO_OF_GEARS = 5;
+
+	public Automobile(String color, String make, int speed) {
+		this.color = color;
+		this.make = make;
+		this.speed = speed;
+	}
 
 	public String getColor() {
 		return color;
-	}
-
-	public void setColor(String color) {
-		this.color = color;
-	}
-
-	public int getSpeed() {
-		return speed;
-	}
-
-	public void setSpeed(int speed) {
-		this.speed = speed;
-
 	}
 
 	public String getMake() {
 		return make;
 	}
 
-	public void setMake(String make) {
-		this.make = make;
+	public int getSpeed() {
+		return speed;
 	}
 
 	public void brake(int speed) {
