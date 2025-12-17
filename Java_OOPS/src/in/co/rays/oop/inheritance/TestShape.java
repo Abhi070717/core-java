@@ -1,4 +1,4 @@
-package in.co.rays.opps.inheritance;
+package in.co.rays.oop.inheritance;
 
 public class TestShape {
 	public static void main(String[] args) {
