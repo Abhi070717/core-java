@@ -2,7 +2,7 @@ package in.co.rays.oop.polymorphism;
 
 public class Shape {
 	public void area() {
-		System.out.println("Area of all shape");
+		System.out.println("Area of all shape");  //Finding Individual Area of Shapes
 	}
 
 	public static Shape getShape(int i) {

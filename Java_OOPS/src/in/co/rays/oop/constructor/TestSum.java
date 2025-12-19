@@ -1,6 +1,7 @@
 package in.co.rays.oop.constructor;
 
 public class TestSum {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		Sum s = new Sum();
