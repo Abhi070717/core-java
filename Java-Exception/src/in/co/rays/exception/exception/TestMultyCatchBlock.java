@@ -1,4 +1,4 @@
-package com.rays.exception;
+package in.co.rays.exception;
 
 public class TestMultyCatchBlock {
 

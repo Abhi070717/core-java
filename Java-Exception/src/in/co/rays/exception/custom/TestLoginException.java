@@ -1,4 +1,4 @@
-package com.rays.exception.custom;
+package in.co.rays.exception.custom;
 
 public class TestLoginException {
 	

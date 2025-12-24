@@ -1,4 +1,4 @@
-package com.rays.exception.propagation;
+package in.co.rays.exception.propagation;
 
 public class UncheckedExeption {
 	public static void main(String[] args) {
