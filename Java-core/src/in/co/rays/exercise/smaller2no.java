@@ -1,12 +1,9 @@
-package com.rays.exercise;
+package in.co.rays.exercise;
 
 public class smaller2no {
 	public static void main(String[] args) {
 		int a = 45;
 		int b = 30;
-		System.out.println(Math.min(a, b));	
-		}
+		System.out.println(Math.min(a, b));
 	}
-
-
-
+}

@@ -1,4 +1,4 @@
-package com.rays.exercise;
+package in.co.rays.exercise;
 
 public class primenumber {
 	public static void main(String[] args) {
@@ -25,5 +25,3 @@ public class primenumber {
 
 	}
 }
-
-              

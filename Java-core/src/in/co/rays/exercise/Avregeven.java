@@ -1,4 +1,4 @@
-package com.rays.exercise;
+package in.co.rays.exercise;
 
 public class Avregeven {
 	public static void main(String[] args) {

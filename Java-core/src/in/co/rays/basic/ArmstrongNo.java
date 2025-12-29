@@ -6,10 +6,10 @@ public class ArmstrongNo {
 		int temp = 0;
 		int num2 = num;
 		int r = 0;
-		
+
 		while (num2 != 0) {
 			r = num2 % 10;
-			temp = temp + r * r * r; // r = Riminder
+			temp = temp + r * r * r; 				// r = Reminder
 			num2 = num2 / 10;
 		}
 		if (temp == num) {
@@ -19,7 +19,7 @@ public class ArmstrongNo {
 		}
 	}
 }
+
 /*
- * Output : 
- * Armstrong
+ * Output : Armstrong
  */

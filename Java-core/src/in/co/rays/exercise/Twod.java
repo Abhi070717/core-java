@@ -1,15 +1,13 @@
-package com.rays.exercise;
+package in.co.rays.exercise;
 
 public class Twod {
-public static void main(String[] args) {
-		
+	public static void main(String[] args) {
+
 		for (int i = 1; i <= 10; i++) {
-			for (int j = 1; j <= 10; j++) {				
-				System.out.print(i*j+ "\t");
+			for (int j = 1; j <= 10; j++) {
+				System.out.print(i * j + "\t");
 			}
-				System.out.println();
+			System.out.println();
 		}
-	}	
 	}
-
-
+}

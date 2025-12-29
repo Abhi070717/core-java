@@ -1,4 +1,4 @@
-package com.rays.collection;
+package in.co.rays.collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -17,9 +17,9 @@ public class TestRetainAllMethod {
 		c2.add("Ram");
 		c2.add("Rawan");
 		c2.add("Baman");
-		
+
 		c1.retainAll(c2);
-		
+
 		System.out.println(c1);
 
 	}

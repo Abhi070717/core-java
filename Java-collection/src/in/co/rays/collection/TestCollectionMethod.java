@@ -1,4 +1,4 @@
-package com.rays.collection;
+package in.co.rays.collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
