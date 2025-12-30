@@ -9,17 +9,16 @@ import java.util.Set;
 
 public class TestSet {
 	
-	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		
-		Set s = new HashSet();
+		Set s = new HashSet();				//Set arrange in ascending order
 		
 		s.add('a');
 		s.add('a');
 		s.add('b');
-		s.add('c');
-		s.add('d');
 		s.add('e');
+		s.add('d');
+		s.add('c');
 		s.add(null);
 		s.add(null);
 		
