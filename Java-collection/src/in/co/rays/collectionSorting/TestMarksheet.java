@@ -7,14 +7,14 @@ public class TestMarksheet {
 	
 	public static void main(String[] args) {
 		
-		Marksheet m1 = new Marksheet("Abhi", 001, 67, 77);
-		Marksheet m2 = new Marksheet("Abhishek", 004, 34, 56);
-		Marksheet m3 = new Marksheet("Chirag", 005, 67, 23);
-		Marksheet m4 = new Marksheet("Akshat", 003, 34, 85);
-		Marksheet m5 = new Marksheet("Bhavesh", 002, 54, 15);
-		Marksheet m6 = new Marksheet("Abhinav", 006, 45, 65);
+		MarksheetUsingComprable m1 = new MarksheetUsingComprable("Abhi", 001, 67, 77);
+		MarksheetUsingComprable m2 = new MarksheetUsingComprable("Abhishek", 004, 34, 56);
+		MarksheetUsingComprable m3 = new MarksheetUsingComprable("Chirag", 005, 67, 23);
+		MarksheetUsingComprable m4 = new MarksheetUsingComprable("Akshat", 003, 34, 85);
+		MarksheetUsingComprable m5 = new MarksheetUsingComprable("Bhavesh", 002, 54, 15);
+		MarksheetUsingComprable m6 = new MarksheetUsingComprable("Abhinav", 006, 45, 65);
 		
-		ArrayList<Marksheet> list = new ArrayList<Marksheet>();
+		ArrayList<MarksheetUsingComprable> list = new ArrayList<MarksheetUsingComprable>();
 		
 		//list.add(null);
 		list.add(m1);
