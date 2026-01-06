@@ -14,22 +14,24 @@ public class TestContestantWinner {
 		list.add(new Contestant("Neeraj", "9345678901"));
 		list.add(new Contestant("Sohan", "9234567890"));
 		list.add(new Contestant("Kunal", "9567890123"));
-		list.add(new Contestant("Deepak", "9678901234"));
+		list.add(new Contestant("Deepak", "9123456789"));
 		list.add(new Contestant("InvalidUser", "12345"));
+		
+		System.out.println("All Phones of Contestant:");
 
 		list.stream().map(e -> e.phoneNo).filter(e -> e.length() == 10).forEach(System.out::println); // print filter phone number
 
-		System.out.println(" ");
+		System.out.println("All Phones of Contestant without Duplicates:");
 
 		list.stream().map(e -> e.phoneNo).filter(e -> e.length() == 10).distinct().forEach(System.out::println); // remove duplicacy
 
-		System.out.println(" ");
+		System.out.println("Phones of the winner Contestant:");
 
 		list.stream().map(e -> e.phoneNo).filter(e -> e.length() == 10).distinct()
 				.collect(Collectors.collectingAndThen(Collectors.toList(), e -> {
 					Collections.shuffle(e);
 					return e.stream();
-				})).limit(3).forEach(System.out::println);
+				})).limit(1).forEach(System.out::println);
 
 	}
 
