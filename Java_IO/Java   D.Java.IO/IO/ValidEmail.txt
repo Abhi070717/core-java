@@ -1,0 +1,9 @@
+john.doe@gmail.com
+roy+tag@gmail.com
+janesmith@gmail.com
+student2024@gmail.com
+first.last123@gmail.com
+hello.world@gmail.com
+myemail@gmail.com
+gmail.user99@gmail.com
+test.account@gmail.com
