@@ -19,7 +19,7 @@ public class ReadAndWriteValidPhoneNo {
 
 		while (PhoneNo != null) {
 
-			if (PhoneNo.length() == 10) {
+			if (PhoneNo.length() == 10) {				//we use regics for Actual phone formate   
 				System.out.println(PhoneNo);
 				bw.write(PhoneNo);
 				bw.newLine();

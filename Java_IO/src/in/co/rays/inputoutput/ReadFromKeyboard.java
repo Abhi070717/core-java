@@ -13,7 +13,7 @@ public class ReadFromKeyboard {
 
 		System.out.println("start writing your text here....");
 
-		InputStreamReader kb = new InputStreamReader(System.in);
+		InputStreamReader kb = new InputStreamReader(System.in);		//InputStreamReader take input from the keyboard    //system.in used for 
 
 		BufferedReader in = new BufferedReader(kb);
 
