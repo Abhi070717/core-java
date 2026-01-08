@@ -10,7 +10,7 @@ public class TestAccountserializable {
 
 	public static void main(String[] args) throws Exception, IOException {
 
-		Account a = new Account("8877744485888", 45660.01);
+		Account a = new Account("77775643321707", 30454.24);
 
 		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("D://IO//Account.txt"));
 
@@ -21,8 +21,7 @@ public class TestAccountserializable {
 
 		ObjectInputStream in = new ObjectInputStream(new FileInputStream("D://IO//Account.txt"));
 
-		// Convert byte stream into Account class object: deserialization
-		System.out.println(in.readObject());
+		System.out.println(in.readObject());				// Convert byte stream into Account class object: deserialization
 
 		in.close();
 
