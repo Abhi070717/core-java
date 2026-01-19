@@ -35,7 +35,7 @@ public class TestSplit01 {
 
 		br.close();
 		fileToCount.close();
-		System.out.println("File split into " + count + " parts.");
+		System.out.println("File split into " + count + " parts");
 	}
 
 }
