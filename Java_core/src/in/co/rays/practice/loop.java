@@ -1,0 +1,10 @@
+package in.co.rays.practice;
+
+public class loop {
+	public static void main(String[] args) {
+		for (int i = 0; i < 11; i++) {
+			System.out.println(i);
+		}
+	}
+
+}
