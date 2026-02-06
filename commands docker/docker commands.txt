@@ -1,0 +1,10 @@
+docker ps    					running images show
+docker --version
+docker info					information
+docker image
+docker pull tomcat				docker hub ki hai
+docker system df -v
+docker system df				image storage
+docker ps -a --size				show size of the xyz	
+docker build prune (space free command)
+docker-compose stop (editing)
